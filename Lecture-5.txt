@@ -1,0 +1,17 @@
+Java provides many types of operators which can be used according to the need. They are classified based on the functionality they provide. In this article, we will learn about Java Operators and learn all their types.
+
+What are the Java Operators?
+Operators in Java are the symbols used for performing specific operations in Java. Operators make tasks like addition, multiplication, etc which look easy although the implementation of these tasks is quite complex.
+
+Types of Operators in Java
+There are multiple types of operators in Java all are mentioned below:
+
+Arithmetic Operators
+Unary Operators
+Assignment Operator
+Relational Operators
+Logical Operators
+Ternary Operator
+Bitwise Operators
+Shift Operators
+instance of operator
