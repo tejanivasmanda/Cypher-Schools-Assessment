@@ -1,0 +1,65 @@
+### Primitive Data Types in Java
+
+Java has eight primitive data types:
+
+1. **byte**:
+   - Size: 8 bits
+   - Range: -128 to 127
+   - Use: To save space in large arrays where the memory savings actually matters.
+
+2. **short**:
+   - Size: 16 bits
+   - Range: -32,768 to 32,767
+   - Use: Similar to byte, but can hold larger values.
+
+3. **int**:
+   - Size: 32 bits
+   - Range: -2^31 to 2^31 - 1
+   - Use: Default data type for integral values unless there's a reason to use a byte or short.
+
+4. **long**:
+   - Size: 64 bits
+   - Range: -2^63 to 2^63 - 1
+   - Use: When a wider range than int is needed.
+
+5. **float**:
+   - Size: 32 bits (single-precision)
+   - Range: Approximately ±3.40282347E+38F (6-7 significant decimal digits)
+   - Use: For saving memory in large arrays of floating point numbers.
+
+6. **double**:
+   - Size: 64 bits (double-precision)
+   - Range: Approximately ±1.79769313486231570E+308 (15 significant decimal digits)
+   - Use: Default data type for decimal values, generally the default choice for real numbers.
+
+7. **boolean**:
+   - Size: 1 bit
+   - Values: Only two possible values: true and false.
+   - Use: For simple flags that track true/false conditions.
+
+8. **char**:
+   - Size: 16 bits
+   - Range: 0 to 65,535 (unsigned)
+   - Use: To store any character.
+
+### Primitive Data Types in Data Structures & Algorithms (DSA)
+
+In the context of DSA, primitive data types are crucial for implementing basic and advanced algorithms. Here's how they typically map:
+
+1. **Integers (int, long)**:
+   - Used for counting, indexing, and arithmetic operations.
+   - Examples: Loop counters, array indices, and general arithmetic in algorithms.
+
+2. **Floating Point Numbers (float, double)**:
+   - Used in algorithms requiring real number calculations, such as those involving geometry or statistics.
+   - Examples: Distance calculations in graph algorithms, average computations.
+
+3. **Boolean**:
+   - Used in control structures and to represent conditions or states.
+   - Examples: Flags for marking visited nodes in graph traversal algorithms, conditional checks in loops.
+
+4. **Characters (char)**:
+   - Used in algorithms involving text processing.
+   - Examples: String manipulation, parsing, and searching operations in texts.
+
+Understanding these primitive data types is essential as they form the foundation for building more complex data structures and algorithms in Java and other programming contexts.
